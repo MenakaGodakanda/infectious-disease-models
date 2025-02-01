@@ -61,11 +61,11 @@ python3 src/sir_model.py
 Output: Generates a graph of S, I, and R populations over time.
 ![Screenshot 2025-02-02 051039](https://github.com/user-attachments/assets/5b61cd2a-edb4-42aa-a1ca-82665e0fc5ba)
 
-Running python3 src/sir_model.py produces a graph like this:
-Graph (Matplotlib):
-- Blue Line → Susceptible (S)
-- Orange Line → Infected (I)
-- Green Line → Recovered (R)
+Running `python3 src/sir_model.py` produces a graph like this:
+- Graph (Matplotlib):
+  - Blue Line → Susceptible (S)
+  - Orange Line → Infected (I)
+  - Green Line → Recovered (R)
 - It shows how **Susceptible decreases, Infected rises and falls**, and **Recovered increases** over time.
 
 ### C++
