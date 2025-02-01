@@ -59,13 +59,14 @@ cd infectious-disease-models
 python3 src/sir_model.py
 ```
 Output: Generates a graph of S, I, and R populations over time.
+![Screenshot 2025-02-02 051039](https://github.com/user-attachments/assets/5b61cd2a-edb4-42aa-a1ca-82665e0fc5ba)
 
 Running python3 src/sir_model.py produces a graph like this:
 Graph (Matplotlib):
 - Blue Line → Susceptible (S)
 - Orange Line → Infected (I)
 - Green Line → Recovered (R)
-It shows how **Susceptible decreases, Infected rises and falls**, and **Recovered increases** over time.
+- It shows how **Susceptible decreases, Infected rises and falls**, and **Recovered increases** over time.
 
 ### C++
 ```
@@ -73,6 +74,8 @@ g++ src/sir_model.cpp -o sir_model
 ./sir_model
 ```
 Output: Prints a numerical table of S, I, and R values over 100 days.
+![Screenshot 2025-02-02 051123](https://github.com/user-attachments/assets/47de1ceb-aad7-4861-b3d6-0ffe131c614e)
+![Screenshot 2025-02-02 051158](https://github.com/user-attachments/assets/e6411eb9-d854-4f51-a145-21292a318a10)
 
 - The **Susceptible (S)** population decreases.
 - The **Infected (I)** population initially rises and then declines.
@@ -83,6 +86,8 @@ Output: Prints a numerical table of S, I, and R values over 100 days.
 Rscript src/sir_model.R
 ```
 Output: Prints a numerical table of S, I, and R values.
+![Screenshot 2025-02-02 051206](https://github.com/user-attachments/assets/88b81fc4-2dda-4727-a28d-850977a5ab5b)
+![Screenshot 2025-02-02 051217](https://github.com/user-attachments/assets/a9e84ec1-311b-4d0c-8911-f2e776e2f2d5)
 
 - Similar to C++ output but formatted as a data table.
 
@@ -92,7 +97,9 @@ javac src/SIRModel.java
 java -cp src SIRModel
 ```
 Output: Prints a numerical table of S, I, and R values.
+![Screenshot 2025-02-02 051248](https://github.com/user-attachments/assets/20bf48c5-733c-4d08-ac30-e711207baae2)
 
+![Screenshot 2025-02-02 051257](https://github.com/user-attachments/assets/0ec6e136-019b-4412-a5bf-51a99f221ef5)
 - Same logic as Python & C++, but formatted for Java.
 
 ### JavaScript (Node.js)
@@ -100,6 +107,8 @@ Output: Prints a numerical table of S, I, and R values.
 node src/sir_model.js
 ```
 Output: Prints a numerical table of S, I, and R values.
+![Screenshot 2025-02-02 051332](https://github.com/user-attachments/assets/92e3402d-5235-49dc-8023-f909d7c12aaa)
+![Screenshot 2025-02-02 051341](https://github.com/user-attachments/assets/8b73822e-1e6f-4540-afaa-8365ddddf35a)
 
 - The same result, but runs on Node.js.
 
